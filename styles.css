@@ -6,12 +6,6 @@ header {
     margin-bottom: 3em;
 }
 
-@media (min-width: 415px) {
-    div {
-        width: 80vw;
-    }
-}
-
 @media (min-width: 768px) {
     header {
         padding: 0 20px;
@@ -23,6 +17,20 @@ header {
     .about {
         width: 60%;
         margin: 0 auto;
+    }
+
+    .insta{
+        width: 70vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copright {
+        margin: 0 auto;
+    }
+
+    .img__socials--footer {
+        margin-right: 0.7em;
     }
 }
 
@@ -83,17 +91,15 @@ span {
     flex: 1;
     align-items: center;
     justify-content: center;
-    border: red 1px solid;
+}
+
+.logo{
+    width: 30vh;
 }
 
 .img__socials {
-    width: 5vh;
+    width: 4vh;
     padding: 1vh;
-    border: blue 1px solid;
-}
-
-.logo {
-    border: green 1px solid;
 }
 
 iframe {
@@ -113,12 +119,8 @@ h2 {
 }
 
 .insta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    width: 100%;
-    height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .facebook  {
@@ -132,4 +134,27 @@ img {
 div {
     display: flex;
     height: auto;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.copright {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socials--footer {
+    
+}
+
+.img__socials--footer {
+    color-adjust: white;
+    width: 4vh;
+    padding: 1vh;
 }
